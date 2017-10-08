@@ -1,7 +1,7 @@
 markdown-toComprehensiveData
 ====
 
-[![npm](https://img.shields.io/npm/v/markdown-toComprehensiveData.svg)](https://www.npmjs.com/package/markdown-toComprehensiveData)
+[![npm](https://img.shields.io/npm/v/markdown-tocomprehensivedata.svg)](https://www.npmjs.com/package/markdown-tocomprehensivedata)
 
 Parse a markdown subset as comprehensive data.
 
@@ -101,7 +101,7 @@ doc
 ## Usage
 
 ```js
-import { parse } from 'markdown-toComprehensiveData'
+import { parse } from 'markdown-tocomprehensivedata'
 
 const Doc = parse( text )
 

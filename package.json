@@ -1,8 +1,8 @@
 {
-    "name": "markdown-toComprehensiveData",
+    "name": "markdown-tocomprehensivedata",
     "version": "0.1.0",
     "description": "Parse a markdown subset as comprehensive data.",
-    "repository": "https://github.com/Platane/markdown-toComprehensiveData",
+    "repository": "https://github.com/Platane/markdown-tocomprehensivedata",
 
     "main": "src/index.js",
 
