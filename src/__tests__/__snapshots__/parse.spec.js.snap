@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should parse the file "13k.md" 1`] = `
+"doc 
+  textBlock 
+    link 
+      image https://platane.github.io/js13k-2017/game.gif
+  textBlock 
+    bold 
+      text  'My entry for the 13k js 2017'
+  textBlock 
+    link 
+      text  'play!'
+  textBlock 
+    text  'or go to the '
+    link 
+      text  'js13k entry page'
+  heading 
+    text  'Gameplay'
+  textBlock 
+    text  'You are lost in a museum.'
+  textBlock 
+    text  'Navigate from a painting to another in order to find your way out.'
+  heading 
+    text  'Controls'
+  list 
+    textBlock 
+      text  'desktop : use the mouse + space to move forward'
+    textBlock 
+      text  'mobile : use the gyroscope + touch the screen to move forward'
+    textBlock 
+      text  'cardboard : use the gyroscope + magnetic button to move forward'
+  heading 
+    text  'Inspiration'
+  textBlock 
+    text  'I challenge myself to put as much image as possible in the game, in form of widly known piece of art.'
+  textBlock 
+    text  'To do so, I used a genetic algorithm to describe an arbitrary image as a set of colored dot.'"
+`;
+
+exports[`should parse the file "big.md" 1`] = `
+"doc 
+  textBlock 
+    text  'This is my first paragraph.'
+    softbreak 
+    text  'This is a second line'
+  textBlock 
+    text  'Second paragraph with '
+    bold 
+      text  'italic'
+    text  ' and '
+    bold 
+      text  'bold'
+    text  ' stuffs.'
+  imageGroup 
+    image 'myImage1.png'
+    image 'myImage2.png'
+  textBlock 
+    text  'Third paragraph '
+    link 
+      text  'click me'
+  textBlock 
+    link 
+      image 'myImage3.png'
+    softbreak 
+    link 
+      image 'myImage4.png'"
+`;
+
+exports[`should parse the file "bockquote.md" 1`] = `
+"doc 
+  codeBlock  'This is code
+'
+  quoteBlock 
+    textBlock 
+      text  'yolo'
+      softbreak 
+      code  'another quote'
+    quoteBlock 
+      textBlock 
+        text  'asds'
+  textBlock 
+    text  'and this stuff'"
+`;
+
+exports[`should parse the file "ex.md" 1`] = `
+"doc 
+  textBlock 
+    text  'This is my first paragraph.'
+    softbreak 
+    text  'This is a second '
+    bold 
+      text  'line'
+    text 
+  imageGroup 
+    image link/to/image
+    image link/to/another/image"
+`;
+
+exports[`should parse the file "imageBlocks.md" 1`] = `
+"doc 
+  imageGroup 
+    image 'myImage1.png'
+  imageGroup 
+    image 'myImage1.png'
+    image 'myImage2.png'
+  textBlock 
+    link 
+      image 'myImage3.png'
+    softbreak 
+    link 
+      image 'myImage4.png'"
+`;
+
+exports[`should parse the file "list.md" 1`] = `
+"doc 
+  list 
+    textBlock 
+      text  '1'
+    textBlock 
+      text  '2'
+    textBlock 
+      text  '3'
+  list 
+    textBlock 
+      text  '1'
+    textBlock 
+      text  '2'
+    textBlock 
+      text  '3 asd asdssad'
+      softbreak 
+      text  'asdasdasd'
+    textBlock 
+      text  '4'"
+`;
+
+exports[`should parse the file "meta.md" 1`] = `
+"doc 
+  hr 
+  heading 
+    text  'sadaspas'
+    softbreak 
+    text  'sapasd: asdas'
+  textBlock 
+    text  'asdasd'"
+`;
+
+exports[`should parse the file "meta2.md" 1`] = `
+"doc 
+  hr 
+  heading 
+    text  'sadaspas'
+    softbreak 
+    text  'sapasd: asdas:123213'
+  textBlock 
+    text  'asdasd'"
+`;
+
+exports[`should parse the file "title.md" 1`] = `
+"doc 
+  heading 
+    text  'one'
+  heading 
+    text  'two'
+  heading 
+    text  'three'
+  heading 
+    text  'four'"
+`;
