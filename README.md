@@ -1,6 +1,8 @@
 markdown-toComprehensiveData
 ====
 
+[![npm](https://img.shields.io/npm/v/markdown-toComprehensiveData.svg)](https://www.npmjs.com/package/markdown-toComprehensiveData)
+
 Parse a markdown subset as comprehensive data.
 
 > ⚠ This parser does not cover the entire markdown languages.
