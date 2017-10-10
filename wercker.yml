@@ -13,6 +13,11 @@ build:
       code: |
         yarn run test
 
+    - script:
+      name: build
+      code: |
+        yarn run build
+
 publish-npm:
   steps:
 
