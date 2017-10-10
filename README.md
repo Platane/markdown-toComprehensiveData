@@ -5,13 +5,13 @@ markdown-toComprehensiveData
 
 Parse a markdown subset as comprehensive data.
 
-> ⚠ This parser does not cover the entire markdown languages.
+> ⚠ This parser does not cover the entire markdown language.
 
 ## Motivation
 
 This project exists because I did not find suitables solutions to parse markdown when :
 - I want to output json ( and not directly html )
-- I want something more usable than a complexe AST
+- I want something easily usable ( not a complexe AST )
 
 ## Example
 
@@ -109,4 +109,4 @@ const Doc = parse( text )
 
 The data structure is described as flow type in [src/type.js](./src/type.js).
 
-However I did not take the time to have a nice flow coverage. Let's the type are more of a documentation. :[
+However I did not take the time to have a nice flow coverage. Let's say the types are more of a documentation. :[
