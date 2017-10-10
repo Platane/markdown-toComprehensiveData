@@ -3,5 +3,19 @@
     "plugins": [
         "transform-es2015-modules-commonjs",
         "transform-object-rest-spread"
-    ]
+    ],
+
+    "env": {
+        "production": {
+            "presets": [
+                "flow",
+                [
+                    "env",
+                    {
+                        "node": "6"
+                    }
+                ]
+            ]
+        }
+    }
 }
