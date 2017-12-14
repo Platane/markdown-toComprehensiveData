@@ -6,7 +6,7 @@ exports[`should parse the file "13k.md" 1`] = `
     link 
       image https://platane.github.io/js13k-2017/game.gif
   textBlock 
-    bold 
+    italic 
       text  'My entry for the 13k js 2017'
   textBlock 
     link 
@@ -46,7 +46,7 @@ exports[`should parse the file "big.md" 1`] = `
     text  'This is a second line'
   textBlock 
     text  'Second paragraph with '
-    bold 
+    italic 
       text  'italic'
     text  ' and '
     bold 
@@ -110,6 +110,23 @@ exports[`should parse the file "imageBlocks.md" 1`] = `
     softbreak 
     link 
       image 'myImage4.png'"
+`;
+
+exports[`should parse the file "italicBold.md" 1`] = `
+"doc 
+  textBlock 
+    text  'normal and '
+    italic 
+      text  'italic'
+    text  ' and '
+    bold 
+      text  'bold'
+    text  ' and '
+    italic 
+      text 
+      bold 
+        text  'bold and italic'
+      text "
 `;
 
 exports[`should parse the file "list.md" 1`] = `

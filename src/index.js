@@ -22,7 +22,7 @@ const getType = ({ type }) => {
         case 'strong':
             return 'bold'
         case 'em':
-            return 'bold'
+            return 'italic'
         case 'fence':
             return 'codeBlock'
         case 'paragraph':
